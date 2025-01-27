@@ -60,7 +60,7 @@ const Form = () => {
         console.log(participants); // Log deltagerne for debugging eller videre behandling
         navigate('/profile'); // Omdiriger brugeren til Tak-siden
     };
-
+//f
     return (
         <><div className="div__box">
          <img className="img" src="/public/img-container.png" alt="" />
