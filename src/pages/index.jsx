@@ -63,7 +63,7 @@ const Form = () => {
 
     return (
         <><div className="div__box">
-         <img className="img" src="/src/img-container.png" alt="" />
+         <img className="img" src="/public/img-container.png" alt="" />
             
             <form>
               
