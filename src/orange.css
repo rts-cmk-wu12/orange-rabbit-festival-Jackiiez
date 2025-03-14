@@ -45,6 +45,42 @@ form{
     width: 30%;
     height: 10%;
 }
+@media screen and (max-width:1050px) {
+
+    .sub__button{
+      width: 100%;
+    }
+    img{
+      display: none;
+    }
+    .div__box{
+      display: flex
+    }
+    .button{
+        margin-left: 5%;
+    }
+    form{
+        justify-items: center;
+    }
+    .form__div__heading {
+        width: 50vw
+      
+    }
+         }
+         /* Telefon  */
+         @media screen and (max-width:480px) {
+         form{
+            justify-items: start;
+            margin-left: 10%;
+         }
+         .sub__button{
+            width: auto;
+        position: relative;
+        top: 91%;
+        right: 150%;
+         }
+    
+         }
 
 
 
