@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+
+    
+    background-image: url('overlay.png');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white; 
+}
+.div__box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+form{
+    display: grid;
+    grid-auto-flow: column
+
+}
+.form__div{
+    width: 35%;
+}
+.form__div__heading{
+    width: 38vw;
+    margin: 0;
+
+}
+.img{
+    width: 75%;
+    justify-self: center;
+}
+
+.button{
+    margin-top: 5%;
+    background-color:#FF6B00 ;
+    
+}
+.sub__button{
+    width: 30%;
+    height: 10%;
+}
+@media screen and (max-width:1050px) {
+
+    .sub__button{
+      width: 100%;
+    }
+    img{
+      display: none;
+    }
+    .div__box{
+      display: flex
+    }
+    .button{
+        margin-left: 5%;
+    }
+    form{
+        justify-items: center;
+    }
+    .form__div__heading {
+        width: 50vw
+      
+    }
+         }
+         /* Telefon  */
+         @media screen and (max-width:480px) {
+         form{
+            justify-items: start;
+            margin-left: 10%;
+         }
+         .sub__button{
+            width: auto;
+        position: relative;
+        top: 91%;
+        right: 150%;
+         }
+    
+         }
+
+
+
+
